@@ -70,6 +70,13 @@
   line-height: 2em;
 }
 
+.information .caution{
+  font-weight: bold;
+  margin-top: 2em;
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+
 .clear {
     clear: both;
 }
