@@ -3,12 +3,16 @@
 }
 
 .box{
-  margin-top: 3em;
 }
 
 .second-box{
   margin-top: 5em;
   margin-bottom: 2em;
+}
+
+.title-row{
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .row h1{

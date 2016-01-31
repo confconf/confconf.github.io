@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="/stylesheets/main.css">
   </head>
   <body>
-    <div id="basic_choropleth" style="position: relative; margin: 0 auto; width: 750px; height: 500px;">
+    <div id="basic_choropleth" style="position: relative; margin: 0 auto; width: 1200px; height: 500px;">
     </div>
 
     <div class="row box">
-      <div class="row indigo lighten-5">
+      <div class="row title-row indigo lighten-5">
         <div class="col s8 offset-s2">
           <div class="title">
             <h1>
@@ -27,7 +27,7 @@
         <div class="col s8 offset-s2">
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars0.githubusercontent.com/u/964251?v=3&s=460">
             </div>
             <h2 class="event-name">
               Pycon 2015
@@ -40,7 +40,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars2.githubusercontent.com/u/148919?v=3&s=460">
             </div>
             <h2 class="event-name">
               Act Festival
@@ -53,7 +53,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars3.githubusercontent.com/u/421486?v=3&s=460">
             </div>
             <h2 class="event-name">
               Ruby Kaigi 2015
@@ -66,7 +66,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://pbs.twimg.com/profile_images/456678035605843971/gZSwZOh6_400x400.jpeg">
             </div>
             <h2 class="event-name">
               Frankfurt Book Fair 2015
@@ -79,7 +79,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars1.githubusercontent.com/u/541274?v=3&s=460">
             </div>
             <h2 class="event-name">
               The Plan B Barcamp
@@ -92,7 +92,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars3.githubusercontent.com/u/52704?v=3&s=460">
             </div>
             <h2 class="event-name">
               AWS re:invent 2015
@@ -105,7 +105,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
             </div>
             <h2 class="event-name">
               지방 서점 여행기
@@ -118,7 +118,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://pbs.twimg.com/profile_images/537058631024275456/epiJkkOw_400x400.jpeg">
             </div>
             <h2 class="event-name">
               YAPC::Asia Tokyo 2015
@@ -131,7 +131,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars0.githubusercontent.com/u/390146?v=3&s=460">
             </div>
             <h2 class="event-name">
               GitHub Universe 2015
@@ -144,7 +144,7 @@
 
           <div class="person">
             <div class="profile-image">
-              <img src="https://avatars2.githubusercontent.com/u/980642?v=3&s=460">
+              <img class="circle" src="https://avatars1.githubusercontent.com/u/1366161?v=3&s=460">
             </div>
             <h2 class="event-name">
               Mozilla Festival 2015
@@ -190,38 +190,6 @@
         </div>
       </div>
     </div>
-
-    <script>
-var basic_choropleth = new Datamap({
-  element: document.getElementById("basic_choropleth"),
-  projection: 'mercator',
-  fills: {
-    defaultFill: "#ABDDA4",
-    authorHasTraveledTo: "#fa0fa0"
-  },
-  data: {
-    USA: { fillKey: "authorHasTraveledTo" },
-    JPN: { fillKey: "authorHasTraveledTo" },
-    ITA: { fillKey: "authorHasTraveledTo" },
-    CRI: { fillKey: "authorHasTraveledTo" },
-    KOR: { fillKey: "authorHasTraveledTo" },
-    DEU: { fillKey: "authorHasTraveledTo" },
-  }
-});
-
-var colors = d3.scale.category10();
-
-window.setInterval(function() {
-  basic_choropleth.updateChoropleth({
-    USA: colors(Math.random() * 10),
-    RUS: colors(Math.random() * 100),
-    AUS: { fillKey: 'authorHasTraveledTo' },
-    BRA: colors(Math.random() * 50),
-    CAN: colors(Math.random() * 50),
-    ZAF: colors(Math.random() * 50),
-    IND: colors(Math.random() * 50),
-  });
-}, 2000);
-    </script>
+    <script type="text/javascript" src="/javascripts/map.js"></script>    
   </body>
 </html>
