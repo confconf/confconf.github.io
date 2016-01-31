@@ -51,12 +51,17 @@
 .person .event-name{
   margin: 0;
   margin-top: 0.25em;
+  font-size: 2.2em;
+}
+
+.person .event-name .link{
+  font-size: 0.4em;
 }
 
 .person .location{
   margin-top: 0.6em;
   font-weigth: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .information-row{
