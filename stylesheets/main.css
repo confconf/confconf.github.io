@@ -1,0 +1,88 @@
+.row{
+  margin-bottom: 0;
+}
+
+.box{
+  margin-top: 3em;
+}
+
+.second-box{
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.row h1{
+  font-size: 6em;
+}
+
+.title{
+  text-align: right;
+  font-weight: bold;
+}
+
+.year{
+  font-size: 0.6em
+}
+
+.people-row{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.person{
+  padding: 1em;
+}
+
+.person img{
+  height: 150px;
+  width: 150px;
+  vertical-align:top;
+  margin-right: 2em;
+}
+
+.person .profile-image{
+  float: left;
+}
+
+.person .event-name{
+  margin: 0;
+}
+
+.person .location{
+  margin-top: 0.6em;
+  font-weigth: bold;
+  font-size: 1.5em;
+}
+
+.information-row{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.information{
+  padding: 1em;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+.clear {
+    clear: both;
+}
+
+.sponsors{
+  text-align: center;
+}
+
+.sponsor{
+  margin: 1.5em auto;
+}
+
+/* from http://stackoverflow.com/a/22567753/2689714 */
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
+}
