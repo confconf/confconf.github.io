@@ -50,6 +50,7 @@
 
 .person .event-name{
   margin: 0;
+  margin-top: 0.25em;
 }
 
 .person .location{
