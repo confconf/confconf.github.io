@@ -38,6 +38,7 @@ function drawMap(){
       name: 'Montreal',
       conf: 'Pycon 2015',
       radius: 20,
+      attendees: 3100,
       fillKey: 'color',
       latitude: 45.5,
       longitude: -73.56
@@ -62,6 +63,7 @@ function drawMap(){
       name: 'Frankfurt',
       conf: 'Frankfurt Book Fair 2015',
       radius: 20,
+      attendees: 300000,
       fillKey: 'color',
       latitude: 50.1106,
       longitude: 8.6820
@@ -70,6 +72,7 @@ function drawMap(){
       name: 'Seoul',
       conf: 'The Plan B Barcamp',
       radius: 10,
+      attendees: 20,
       fillKey: 'color',
       latitude: 37.559,
       longitude: 126.9733
@@ -78,6 +81,7 @@ function drawMap(){
       name: 'Las Vegas',
       conf: 'AWS re:invent 2015',
       radius: 20,
+      attendees: 20000,
       fillKey: 'color',
       latitude: 35.5938,
       longitude: -105.2215
@@ -94,6 +98,7 @@ function drawMap(){
       name: 'Tokyo',
       conf: 'YAPC::Asia Tokyo 2015',
       radius: 10,
+      attendees: 2000,
       fillKey: 'color',
       latitude: 36.682,
       longitude: 140.758
@@ -102,6 +107,7 @@ function drawMap(){
       name: 'San Francisco',
       conf: 'GitHub Universe 2015',
       radius: 20,
+      attendees: 1000,
       fillKey: 'color',
       latitude: 37.7889,
       longitude: -122.6754
@@ -110,6 +116,7 @@ function drawMap(){
       name: 'London',
       conf: 'Mozilla Festival 2015',
       radius: 20,
+      attendees: 1700,
       fillKey: 'color',
       latitude: 51.4889,
       longitude: -0.0845
